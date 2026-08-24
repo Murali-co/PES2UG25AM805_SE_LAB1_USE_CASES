@@ -1,0 +1,130 @@
+<svg viewBox="0 0 980 780" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#555555"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="980" height="780" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="490" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a2e">Community Lost &amp; Found Matching Network — Use-Case Diagram</text>
+
+  <!-- System boundary -->
+  <rect x="185" y="55" width="620" height="650" rx="8" fill="#f7f9fc" stroke="#2b3a67" stroke-width="2"/>
+  <text x="495" y="78" text-anchor="middle" font-size="14" font-weight="600" fill="#2b3a67">Community Lost &amp; Found Matching Network</text>
+
+  <!-- ===================== ACTORS ===================== -->
+  <!-- Finder -->
+  <g stroke="#1a1a2e" stroke-width="2" fill="none">
+    <circle cx="70" cy="150" r="14" fill="#ffffff"/>
+    <line x1="70" y1="164" x2="70" y2="205"/>
+    <line x1="45" y1="180" x2="95" y2="180"/>
+    <line x1="70" y1="205" x2="48" y2="235"/>
+    <line x1="70" y1="205" x2="92" y2="235"/>
+  </g>
+  <text x="70" y="252" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a2e">Finder</text>
+
+  <!-- Owner -->
+  <g stroke="#1a1a2e" stroke-width="2" fill="none">
+    <circle cx="70" cy="400" r="14" fill="#ffffff"/>
+    <line x1="70" y1="414" x2="70" y2="455"/>
+    <line x1="45" y1="430" x2="95" y2="430"/>
+    <line x1="70" y1="455" x2="48" y2="485"/>
+    <line x1="70" y1="455" x2="92" y2="485"/>
+  </g>
+  <text x="70" y="502" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a2e">Owner / Claimant</text>
+
+  <!-- Community Admin -->
+  <g stroke="#1a1a2e" stroke-width="2" fill="none">
+    <circle cx="905" cy="500" r="14" fill="#ffffff"/>
+    <line x1="905" y1="514" x2="905" y2="555"/>
+    <line x1="880" y1="530" x2="930" y2="530"/>
+    <line x1="905" y1="555" x2="883" y2="585"/>
+    <line x1="905" y1="555" x2="927" y2="585"/>
+  </g>
+  <text x="905" y="602" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a2e">Community Admin</text>
+
+  <!-- ===================== USE CASES ===================== -->
+  <!-- Report Lost Item -->
+  <ellipse cx="300" cy="130" rx="95" ry="34" fill="#ffffff" stroke="#2b3a67" stroke-width="1.6"/>
+  <text x="300" y="126" text-anchor="middle" font-size="12.5" font-weight="600">Report Lost</text>
+  <text x="300" y="141" text-anchor="middle" font-size="12.5" font-weight="600">Item</text>
+
+  <!-- Log Found Item -->
+  <ellipse cx="300" cy="420" rx="95" ry="34" fill="#ffffff" stroke="#2b3a67" stroke-width="1.6"/>
+  <text x="300" y="416" text-anchor="middle" font-size="12.5" font-weight="600">Log Found</text>
+  <text x="300" y="431" text-anchor="middle" font-size="12.5" font-weight="600">Item</text>
+
+  <!-- Extract Item Tags -->
+  <ellipse cx="530" cy="130" rx="105" ry="34" fill="#eef2fb" stroke="#2b3a67" stroke-width="1.6"/>
+  <text x="530" y="126" text-anchor="middle" font-size="12.5" font-weight="600">Extract Visual &amp;</text>
+  <text x="530" y="141" text-anchor="middle" font-size="12.5" font-weight="600">Text Item Tags</text>
+
+  <!-- Run Geo-Proximity Matching -->
+  <ellipse cx="530" cy="280" rx="115" ry="36" fill="#eef2fb" stroke="#2b3a67" stroke-width="1.6"/>
+  <text x="530" y="275" text-anchor="middle" font-size="12.5" font-weight="600">Run Geo-Proximity</text>
+  <text x="530" y="290" text-anchor="middle" font-size="12.5" font-weight="600">Matching</text>
+
+  <!-- Notify Potential Owner -->
+  <ellipse cx="740" cy="280" rx="100" ry="34" fill="#ffffff" stroke="#2b3a67" stroke-width="1.6"/>
+  <text x="740" y="276" text-anchor="middle" font-size="12.5" font-weight="600">Notify Potential</text>
+  <text x="740" y="291" text-anchor="middle" font-size="12.5" font-weight="600">Owner</text>
+
+  <!-- Claim Found Item -->
+  <ellipse cx="300" cy="560" rx="100" ry="34" fill="#ffffff" stroke="#2b3a67" stroke-width="1.6"/>
+  <text x="300" y="556" text-anchor="middle" font-size="12.5" font-weight="600">Claim Found</text>
+  <text x="300" y="571" text-anchor="middle" font-size="12.5" font-weight="600">Item</text>
+
+  <!-- Answer Security Questions -->
+  <ellipse cx="530" cy="560" rx="110" ry="34" fill="#eef2fb" stroke="#2b3a67" stroke-width="1.6"/>
+  <text x="530" y="556" text-anchor="middle" font-size="12.5" font-weight="600">Answer Proof-of-</text>
+  <text x="530" y="571" text-anchor="middle" font-size="12.5" font-weight="600">Ownership Questions</text>
+
+  <!-- Reveal Handover Contact -->
+  <ellipse cx="530" cy="650" rx="115" ry="34" fill="#fdf1f1" stroke="#8b2e2e" stroke-width="1.6"/>
+  <text x="530" y="646" text-anchor="middle" font-size="12.5" font-weight="600">Reveal Handover</text>
+  <text x="530" y="661" text-anchor="middle" font-size="12.5" font-weight="600">Contact Details</text>
+
+  <!-- Moderate Item Reports -->
+  <ellipse cx="740" cy="500" rx="105" ry="34" fill="#ffffff" stroke="#2b3a67" stroke-width="1.6"/>
+  <text x="740" y="496" text-anchor="middle" font-size="12.5" font-weight="600">Moderate Item</text>
+  <text x="740" y="511" text-anchor="middle" font-size="12.5" font-weight="600">Reports</text>
+
+  <!-- ===================== ASSOCIATIONS (actor-use case) ===================== -->
+  <g stroke="#555555" stroke-width="1.4">
+    <line x1="95" y1="160" x2="215" y2="135"/>
+    <line x1="95" y1="410" x2="205" y2="415"/>
+    <line x1="95" y1="440" x2="210" y2="555"/>
+    <line x1="880" y1="510" x2="835" y2="502"/>
+  </g>
+
+  <!-- ===================== INCLUDE / EXTEND RELATIONS ===================== -->
+  <g stroke="#2b3a67" stroke-width="1.4" stroke-dasharray="6,4" fill="none" marker-end="url(#arrow)">
+    <path d="M375,140 L425,133"/>
+    <path d="M375,405 L440,175"/>
+    <path d="M540,164 L534,246"/>
+    <path d="M617,255 L648,270"/>
+    <path d="M375,545 L438,563"/>
+  </g>
+  <text x="400" y="118" font-size="11" fill="#2b3a67" font-style="italic">&#171;include&#187;</text>
+  <text x="395" y="330" font-size="11" fill="#2b3a67" font-style="italic">&#171;include&#187;</text>
+  <text x="548" y="205" font-size="11" fill="#2b3a67" font-style="italic">&#171;include&#187;</text>
+  <text x="620" y="248" font-size="11" fill="#2b3a67" font-style="italic">&#171;include&#187;</text>
+  <text x="390" y="540" font-size="11" fill="#2b3a67" font-style="italic">&#171;include&#187;</text>
+
+  <!-- Extend: Reveal Handover Contact extends Claim Found Item -->
+  <path d="M470,620 C 420,600 350,590 320,585" stroke="#8b2e2e" stroke-width="1.4" stroke-dasharray="6,4" fill="none" marker-end="url(#arrow)"/>
+  <text x="345" y="613" font-size="11" fill="#8b2e2e" font-style="italic">&#171;extend&#187;</text>
+  <text x="345" y="627" font-size="9.5" fill="#8b2e2e">(ExtensionPoint: OwnershipVerified)</text>
+
+  <!-- Admin to Notify (association omitted, admin only moderates) -->
+
+  <!-- Legend -->
+  <g font-size="11" fill="#333333">
+    <line x1="200" y1="725" x2="224" y2="725" stroke="#555" stroke-width="1.4" stroke-dasharray="5,4"/>
+    <text x="230" y="729">dashed arrow = &#171;include&#187; / &#171;extend&#187; dependency</text>
+    <line x1="200" y1="748" x2="224" y2="748" stroke="#555" stroke-width="1.4"/>
+    <text x="230" y="752">solid line = actor association</text>
+  </g>
+</svg>
